@@ -1,0 +1,13 @@
+{
+  "id": "saphirox/sales-prediction-model-train-lgbm",
+  "title": "sales-prediction-model-train-lgbm",
+  "code_file": "sales-prediction.model_train.lgbm.1.0.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": ["saphirox/predict-feature-sales-dataset"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

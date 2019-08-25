@@ -1,0 +1,11 @@
+pandas
+numpy
+nltk
+googlemaps
+catboost
+xgboost
+plotly
+tensorflow
+sklearn
+tsfresh
+BeautifulSoup
