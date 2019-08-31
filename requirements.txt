@@ -9,3 +9,4 @@ tensorflow
 sklearn
 tsfresh
 BeautifulSoup
+tensorflow,

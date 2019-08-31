@@ -1,17 +1,9 @@
-from sklearn.model_selection import RandomizedSearchCV, TimeSeriesSplit, KFold
-from scipy.stats import randint as sp_randint
-from sklearn.base import BaseEstimator, TransformerMixin
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import LabelEncoder
-from sklearn.impute import SimpleImputer
-
-# TSFRESH
-from tsfresh.feature_extraction import ComprehensiveFCParameters, extract_features, MinimalFCParameters
-from tsfresh.utilities.dataframe_functions import impute
-from tsfresh import extract_relevant_features
-
 import numpy as np
 import pandas as pd
+from sklearn.base import BaseEstimator, TransformerMixin
+# TSFRESH
+from tsfresh.feature_extraction import extract_features
+from tsfresh.utilities.dataframe_functions import impute
 
 
 def split_dataset(gb_df, date_col, pred_col):
