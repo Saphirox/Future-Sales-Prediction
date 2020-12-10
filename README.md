@@ -1,6 +1,8 @@
 # Predict Futures sales
  
- Project divided into 3 section - 
+ ## Compettion overview: https://www.kaggle.com/c/competitive-data-science-predict-future-sales
+ 
+ Project divided into 3 section 
  
  data_exp - EDA, 
  
